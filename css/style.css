@@ -838,6 +838,7 @@ font-weight: 100;
 
 .get-in-touch-1{
     flex-basis: 65%;
+    color:#666666;
    
 }
 
@@ -882,6 +883,7 @@ font-weight: 100;
     padding: 5px;
     background-color: #333;
     border: none;
+    color:#666666;
   }
 .submit-btn{
     /* padding: 15px 30px 15px 30px; */
