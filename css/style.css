@@ -1,0 +1,989 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Serif Display', serif;
+font-family: 'Roboto Condensed', sans-serif;
+background-color: black;
+
+}
+
+
+/* NAV-MENU  */
+.nav-menu{ 
+   min-height:100vh;
+   background-image: linear-gradient(rgba(0, 0, 0,0.4),rgba(0, 0, 0,0.4)),url(../picture/young-bearded-man-with-striped-shirt.jpg);
+    background-image: ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* padding-top: 31px; */
+      
+}
+.nav-bar{
+    padding-top: 25px;
+    overflow: hidden;
+    /* background-color: #f8f3f3; */
+    position:fixed; 
+    background-color:white;
+    background-image: linear-gradient(rgba(0, 0, 0,0.4),rgba(0, 0, 0,0.4));
+    top: 0  ;
+    
+    width: 100%;
+}
+.nav-item{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.nav-item li{
+display: inline;
+padding: 15px;
+letter-spacing: 2px;
+text-transform: uppercase;
+ 
+ 
+
+}
+.nav-item li :hover{
+    color: #bac964;
+     
+}
+.nav-item a{
+    text-decoration: none;
+    color: #666666;
+     
+    padding-bottom: 15px;
+}
+.nav-down{
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+     
+}
+.down{
+    padding-top: 200px;
+}
+.nav-down h1{
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+.nav-down h3{
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 60px;
+}
+.nav-down p{
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding-top: 15px;
+}
+/* END NAV-MENU  */
+
+
+
+/* Fetured section */
+.featured{
+    background-color: black;
+}
+.featured-div{
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.featured-h1{
+font-weight: 300;
+font-size: 50px;
+color: whitesmoke;
+}
+.featured-span{
+    font-weight: 700;
+    font-size: 55px;
+    color: whitesmoke;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-list li{
+    display: inline;
+    padding-left: 15px;
+}
+.product-list li a{
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.4);
+}
+.product-list li a:hover{
+    color: #bac964;
+}
+/* END Fetured section */
+
+
+/* card section */
+.card-section{
+background-color: black;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 45px;
+}
+.card-1{
+     max-width: 32%;
+     /* box-shadow: rgba(255, 255, 255, 0.4) 0px 2px 8px 0px; */
+     cursor: pointer;
+}
+.card-1 img{
+    height: 35vh;
+    width: 100%;
+}
+.card-2 img{
+    height: 35vh;
+    width: 100%;
+}
+.card-3 img{
+    height: 35vh;
+    width: 100%;
+}
+.card-2{
+    max-width: 32%;
+    /* box-shadow: rgba(255, 255, 255, 0.4) 0px 2px 8px 0px; */
+    cursor: pointer;
+}
+.card-3{
+    max-width: 32%;
+    /* box-shadow: rgba(255, 255, 255, 0.4) 0px 2px 8px 0px; */
+    cursor: pointer;
+
+}
+.card-content-1{
+ color: white;
+  text-align: center;
+}
+.card-content-1 h4{
+    font-weight: 300;
+    font-size: 25px;
+}
+.card-content-1 p{
+    font-weight: 300;
+    font-size: 15px;
+}
+.card-content-2{
+    color: white;
+    text-align: center;
+}
+.card-content-2 h4{
+    font-weight: 300;
+    font-size: 25px;
+}
+.card-content-2 p{
+    font-weight: 300;
+    font-size: 15px;
+}
+.card-content-3{
+    color: white;
+    text-align: center;
+    
+}
+.card-content-3 h4{
+    font-weight: 300;
+    font-size: 25px;
+}
+.card-content-3 p{
+    font-weight: 300;
+    font-size: 15px;
+}
+/* END card section */
+
+
+
+
+/* Exprience & Education Section */
+ .Education-Exprience{
+    background-color: black;
+ }
+.my-resume-text{
+     color: white;
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      font-size: 30px;
+}
+.my-resume-text span{
+    font-weight: 100;
+    font-size: 30px;
+}
+
+ .education-text{
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+ }
+ .education-text-1 h1{
+    color: white;
+     font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+  
+ }
+ .education-text-2 h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+ }
+ .education-card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 25px 45px 25px 45px;
+ }
+ .education-card-1{
+    background-color:#333;
+    padding: 25px;
+    margin-right: 5px;
+    width: 49%;
+    border-radius: 5px;
+
+ }
+ .education-card-1 h4{
+    color: white;
+    padding-bottom:5px ;
+
+ }
+ .education-card-1 h3{
+   color: #bac964;
+   padding-bottom:5px ;
+   letter-spacing: 0.5px;
+   font-weight: 100;
+ }
+ .education-card-1 p{
+    letter-spacing: 0.3px;
+    padding-bottom: 5px;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 100;
+    line-height: 23px;
+ }
+ .education-card-1 h5{
+    color: rgba(255, 255, 255, 0.4);
+
+ }
+
+ .education-card-2{
+    background-color:#333;
+    padding: 25px;
+    margin-left: 5px;
+    width: 49%;
+    border-radius: 5px;
+
+ }
+ .education-card-2 h4{
+    color: white;
+    padding-bottom:5px ;
+
+ }
+ .education-card-2 h3{
+   color: #bac964;
+   padding-bottom:5px ;
+   letter-spacing: 0.5px;
+   font-weight: 100;
+ }
+ .education-card-2 p{
+    letter-spacing: 0.3px;
+    padding-bottom: 5px;
+    /* color: white; */
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 100;
+    line-height: 23px;
+ }
+ .education-card-2 h5{
+    color: rgba(255, 255, 255, 0.4);
+
+ }
+/* END Exprience & Education Section */
+
+
+
+/*about-me section */
+ .about-me{
+    padding: 125px 45px 45px 45px;
+   
+    background-color: black;
+ }
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+   
+    
+}
+ .profile-picture{
+     
+     width: 49%;
+    /* background-image: url(../picture/young-bearded-man-with-striped-shirt.jpg); */
+    padding-right: 10px;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+ }
+ .profile-picture img{
+    /* height: 200px;
+    width: 49%; */
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    height: 300px;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+ }
+ 
+ .bio{
+    width: 49%;
+    color: white;
+    margin-left: 75px;
+    /* padding-right: 0px 30px 20px 40px; */
+ }
+ .bio h1{
+    font-weight: 700;
+     
+    font-size: 30px;
+    letter-spacing: 0.5px;
+ }
+ .bio h1 span{
+    font-weight: 100;
+ }
+ .bio p{
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+     
+    color: rgba(255, 255, 255, 0.4);
+ }
+ .btn-1{
+    text-decoration: none;
+    background-color: #bac964;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;  
+    margin-top: 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: .2rem;
+    display: inline-block;
+    
+ }
+ .btn-2{
+    text-decoration: none;
+   color: #bac964;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 20px;   
+    margin-top: 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: .2rem;
+    display: inline-block;
+     
+ }
+ .bio button :hover{
+    background-color: #bac964;
+ }
+/*END about-me section */
+
+
+/*Client-Testimonial section */
+.Client-Testimonial{
+    background-color: black;
+    height: auto;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 95px;
+    
+}
+.Client-Testimonial-head{
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 0.9px;
+    padding-bottom: 90px;
+}
+.Client-Testimonial-head span{
+    font-weight: 100;
+}
+
+.Client-Testimonial-card{
+    width: 100%;
+}
+.Client-Testimonial-card-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Client-Testimonial-1{
+    display: flex;
+    justify-content: center;
+    flex-basis: 49%;
+}
+.Client-Testimonial-col img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+}
+.Client-Testimonial-col-2{
+    background-color: rgb(51, 51, 51);
+    padding: 0px;
+    margin-left: -26px;
+    margin-top: 5px;
+    clip-path: polygon(19% 0px, 100% 0%, 100% 61%, 19% 60%, 19% 23%, 8% 6%, 19% 10%);
+    height: 424px;
+    width: 436px;
+}
+
+
+
+.Client-Testimonial-col-2 p{
+    color: rgba(255, 255, 255, 0.4);
+    line-height: 34px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    padding-top: 15px;
+    padding-left: 120px;
+    padding-right: 10px;
+   
+}
+.Client-Testimonial-col-2 h6{
+    font-weight: 100;
+    color: #666666;
+    font-size: 15px;
+    
+    padding-top: 15px;
+    padding-left: 120px;
+}
+.Client-Testimonial-col-2 h6 span{
+    color: #bac964;
+    
+    
+}
+
+
+.Client-Testimonial-2{
+    display: flex;
+    justify-content: center;
+    flex-basis: 49%;
+    
+}
+.Client-Testimonial-col-01 img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.Client-Testimonial-col-02{
+    background-color: rgb(51, 51, 51);
+    padding: 0px;
+    margin-left: -26px;
+    margin-top: 5px;
+    clip-path: polygon(19% 0px, 100% 0%, 100% 61%, 19% 60%, 19% 23%, 8% 6%, 19% 10%);
+    height: 424px;
+    width: 436px;
+
+
+}
+.Client-Testimonial-col-02 p{
+    color: rgba(255, 255, 255, 0.4);
+    line-height: 34px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    padding-top: 15px;
+    padding-left: 120px;
+    padding-right: 10px;
+   
+}
+.Client-Testimonial-col-02 h6{
+    font-weight: 100;
+    color: #666666;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-top: 15px;
+    padding-left: 120px;
+}
+.Client-Testimonial-col-02 h6 span{
+    color: #bac964;
+    
+    
+}
+.Client-Testimonial-card-2{
+    padding-top: 59px;
+}
+/*END Client-Testimonial section */
+
+
+
+/* My Services section */
+.My-Services{
+    margin: 25px 45px 25px 45px;
+    background-color: black;
+}
+
+.My-Services-header{
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding-bottom: 45px;
+    padding-top: 85px;
+    font-size: 40px;
+}
+.My-Services-header span{
+    font-weight: 100;
+}
+
+.My-Services-cards{
+    display: flex;
+    justify-content: space-around;
+     height: auto;
+     width: 100%;
+}
+.My-Services-card-1{
+       background-color: #333;     
+       text-align: center;  
+       padding: 15px;
+       margin-left: 15px;
+       color: #666666;
+       height: auto;
+       width: 32%;
+ }
+ .My-Services-card-1 h3{
+    color: white;
+    padding: 25px 0px 15px 0px;
+    word-wrap: none;
+    font-weight: 400;
+    font-size: 20px;
+ }
+ .My-Services-card-2 h3{
+    color: white;
+    padding: 25px 0px 15px 0px;
+    font-weight: 400;
+    font-size: 20px;
+ }
+ .My-Services-card-3 h3{
+    color: white;
+    padding: 25px 0px 15px 0px;
+    font-weight: 400;
+    font-size: 20px;
+ }
+
+
+ .My-Services-card-1 p{
+    color: white;
+    padding: 15px 15px 5px 15px;
+     line-height: 30px;
+   line-height: 30px;
+   font-weight: 100;
+   color: #666666;
+   
+ }
+ .My-Services-card-2 p{
+    color: white;
+    padding: 15px 15px 15px 15px;
+font-weight: 100;
+   color: #666666;
+   line-height: 30px;
+ }
+ .My-Services-card-3 p{
+    color: white;
+    padding: 15px 15px 15px 15px;
+    font-weight: 100;
+       color: #666666;
+    line-height: 30px;   
+ }
+ .My-Services-card-2{
+    background-color: #333;     
+    text-align: center;  
+    padding: 15px;
+    margin-left: 15px;
+    color: #666666;
+    height: auto;
+    width: 32%;
+ }
+ .My-Services-card-3{
+    background-color: #333;     
+    text-align: center;  
+    padding: 15px; 
+    margin-left: 15px;
+    color: #666666;
+    height: auto;
+    width: 32%;
+ }
+ .fa-solid{
+ color: #666666;
+ background-color: #bac964;
+ padding: 15px;
+ border-radius: 50%;
+ }
+ .fa-regular{
+    color: #666666;
+    background-color: #bac964;
+    padding: 15px;
+    border-radius: 50%;
+ }
+ 
+ .link-3 {
+    text-decoration: none;
+    color: #bac964;
+    transition: all 1s ease-in-out;
+     
+ }
+ .link-3 i{
+    transition: all 1s ease-in-out;
+    text-decoration: none;
+    color: #bac964;
+    background-color: #333;
+ }
+
+  .link-3 i:hover{
+    margin-left: 26px;
+  }
+
+
+  .link-2 {
+    text-decoration: none;
+    color: #bac964;
+    transition: all 1s ease-in-out;
+    margin-top: -10px;
+     
+ }
+ .link-2 i{
+    transition: all 1s ease-in-out;
+    text-decoration: none;
+    color: #bac964;
+    background-color: #333;
+ }
+
+  .link-2 i:hover{
+    margin-left: 26px;
+  }
+
+  .link-1 {
+    text-decoration: none;
+    color: #bac964;
+    transition: all 1s ease-in-out;
+     
+ }
+ .link-1 i{
+    transition: all 1s ease-in-out;
+    text-decoration: none;
+    color: #bac964;
+    background-color: #333;
+ }
+
+  .link-1 i:hover{
+    margin-left: 26px;
+  }
+  /*END My Services section */
+
+
+
+ /*Blog on Medium section  */
+.Blog{
+    margin: 115px 45px 65px 45px;
+    background-color: black; 
+}
+.Blog h1{
+    text-align: center;
+    font-weight: 100;
+    font-size: x-large;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 85px;
+    margin-top: 65px;
+}
+.Blog h1 span{
+    font-weight: 700;
+    letter-spacing: 1.9px;
+}
+
+.blog-item{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+}
+
+
+.blog-section-1{
+    height:auto;
+    width: 32%;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+.blog-section-2{
+    height:auto;
+    width: 32%;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+.blog-section-3{
+    height:auto;
+    width: 32%;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+.blog-picture{
+    height:50% ;
+    width: 100%;
+}
+.blog-picture img{
+    height: 100%;
+    width: 100%;
+}
+
+.blog-text{
+    text-align: center;
+    padding: 15px 5px 15px 5px;
+    font-weight: 300;
+    color: #666666;
+}
+.blog-text h3{
+    color: white;
+    font-weight: 300;
+    padding: 15px 5px;
+    font-size: 25px;
+    transition: all 1s ease;
+}
+.blog-text h3:hover{
+    color: #bac964;
+}
+.blog-text p{
+    color: #666666;
+    font-weight: 300;
+    padding: 10px 5px 0px 5px;
+    font-size: 19px;
+}
+.blog-massage{
+    padding-bottom: 15px;
+    transition: all 1s ease;
+}
+
+.blog-massage p{
+    display: inline;  
+    color: #666666;
+   
+}
+
+.blog-massage :hover{
+    color: #bac964;
+}
+ 
+.blog-massage p i{
+    color: #666;
+    background-color: #333;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+ /*END Blog on Medium section  */
+
+
+
+
+
+ /* Get In Touch section   */
+ .get-in-touch{
+    margin: 115px 45px 65px 45px;
+    background-color: black; 
+}
+.get-in-touch h1{
+    text-align: center;
+    font-weight: 100;
+    font-size: x-large;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 85px;
+    margin-top: 65px;
+}
+
+.get-in-touch h1 span{
+    font-weight: 700;
+    letter-spacing: 1.9px;
+}
+
+.get-in-touch-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-in-touch-1{
+    flex-basis: 65%;
+   
+}
+
+.get-in-touch-2{
+    color:#666666;
+    padding-left: 5px;
+    text-align: justify;
+    flex-basis: 64%;
+    
+}
+.get-in-touch-2 p{
+    padding: 15px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+ .name{  
+    width: 500px;
+    height: 50px;
+    padding: 5px;
+    background-color: #333;
+    border: none;
+ }
+ .number{  
+    width: 500px;
+    height: 50px;
+    padding: 5px;
+    background-color: #333;
+    border: none;
+ }
+ .e-mail{  
+    width: 500px;
+    height: 50px;
+    padding: 5px;
+    background-color: #333;
+    border: none;
+ }
+  textarea{
+    width: 500px;
+    height: 200px;
+    padding: 5px;
+    background-color: #333;
+    border: none;
+  }
+.submit-btn{
+    /* padding: 15px 30px 15px 30px; */
+    padding: 20px 152px 20px 53px;
+    color: white;
+    background-color: #bac964;
+    border-radius: 20px;
+    width: 146px;
+    letter-spacing: 1.5px;
+}
+
+
+
+
+ /* END Get In Touch section   */
+
+
+/* Footer Section Start Here   */
+footer{
+    margin: 115px 45px 65px 45px;
+    background-color: black;    
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.copyright span{
+    color: red;
+    text-transform: uppercase;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+ .facebook{
+  /* color:  #3b5998; */
+  color: #bac964;
+  padding:20px;
+  border-radius: 50%;
+  background-color: #333;
+  font-size: 35px;
+  align-items: center;
+  margin-left: 15px;
+ }
+
+.instagram{
+ color: #bac964;
+  padding:20px;
+  border-radius: 50%;
+  background-color: #333;
+  font-size: 35px;
+  align-items: center;
+  margin-left: 15px;
+}
+.linkedin{
+ color: #bac964;
+  padding:20px;
+  border-radius: 50%;
+  background-color: #333;
+  font-size: 35px;
+  align-items: center;
+  margin-left: 15px;
+}
+.twitter{
+ color: #bac964;
+  padding:20px;
+  border-radius: 50%;
+  background-color: #333;
+  font-size: 35px;
+  align-items: center;
+  margin-left: 15px;
+}
+.vimeo{
+ color: #bac964;
+  padding:20px;
+  border-radius: 50%;
+  background-color: #333;
+  font-size: 35px;
+  align-items: center;
+  margin-left: 15px;
+}
+
+
+/* Footer Section END Here   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
